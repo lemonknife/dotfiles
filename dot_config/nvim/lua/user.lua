@@ -1,0 +1,22 @@
+return {
+  "AstroNvim/astrocommunity",
+  { import = "plugins.ui.theme" },
+  { import = "plugins.ui.statusbar" },
+  { import = "plugins.ui.homepage" },
+  { import = "plugins.ui.icon" },
+  { import = "plugins.tool.toggle" },
+  { import = "plugins.tool.pair" },
+  { import = "plugins.tool.ai" },
+  { import = "plugins.lsp.lens" },
+  { import = "plugins.lsp.rename" },
+  { import = "plugins.pack.lua" },
+  { import = "plugins.pack.vue" },
+  -- TODO: add those configs
+  -- { import = "plugins.pack.cpp" },
+  -- { import = "plugins.pack.csharp" },
+  { import = "plugins.pack.rust" },
+  { import = "plugins.pack.python" },
+  { import = "plugins.external.neovide" },
+  { import = "plugins.pack.java" },
+  -- { import = "plugins.external.vscode" },
+}

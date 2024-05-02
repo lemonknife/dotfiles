@@ -1,3 +1,3 @@
 return {
-  { import = "astrocommunity.pack.rust" },
+	{ import = "astrocommunity.pack.rust" },
 }

@@ -1,3 +1,3 @@
 return {
-  { import = "astrocommunity.lsp.lsp-lens-nvim" },
+	{ import = "astrocommunity.lsp.lsp-lens-nvim" },
 }

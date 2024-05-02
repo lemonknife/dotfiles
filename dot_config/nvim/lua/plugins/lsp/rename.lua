@@ -1,3 +1,3 @@
 return {
-  { import = "astrocommunity.lsp.inc-rename-nvim" },
+	{ import = "astrocommunity.lsp.inc-rename-nvim" },
 }

@@ -1,4 +1,6 @@
-if not vim.g.neovide then return {} end
+if not vim.g.neovide then
+  return {}
+end
 
 return {
   { import = "astrocommunity.recipes.neovide" },

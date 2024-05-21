@@ -17,34 +17,34 @@ return {
 		},
 		keys = {
 			{
-				prefix .. "a",
+				prefix .. "s",
 				"<Plug>(nvim-surround-normal)",
 				desc = "Add surrounding",
 				mode = "n",
 			},
 			{
-				prefix .. "A",
+				prefix .. "S",
 				"<Plug>(nvim-surround-normal-line)",
 				desc = "Add surrounding to new line",
 				mode = "n",
 			},
 			{
-				prefix .. "aa",
+				prefix .. "ss",
 				"<Plug>(nvim-surround-normal-cur)",
 				desc = "Add surrounding on current line",
 				mode = "n",
 			},
 			{
-				prefix .. "aA",
+				prefix .. "sS",
 				"<Plug>(nvim-surround-normal-cur-line)",
 				desc = "Add surrounding on current line to new line",
 				mode = "n",
 			},
-			{ prefix .. "d", "<Plug>(nvim-surround-delete)", desc = "Delete surrounding", mode = "n" },
-			{ prefix .. "c", "<Plug>(nvim-surround-change)", desc = "Change surrounding", mode = "n" },
+			{ prefix .. "d", "<Plug>(nvim-surround-delete)",      desc = "Delete surrounding",             mode = "n" },
+			{ prefix .. "c", "<Plug>(nvim-surround-change)",      desc = "Change surrounding",             mode = "n" },
 			{ prefix .. "C", "<Plug>(nvim-surround-change-line)", desc = "Change surrounding to new line", mode = "n" },
-			{ prefix .. "a", "<Plug>(nvim-surround-visual)", desc = "Add surrounding", mode = "x" },
-			{ prefix .. "A", "<Plug>(nvim-surround-visual-line)", desc = "Add surrounding to new line", mode = "x" },
+			{ prefix .. "s", "<Plug>(nvim-surround-visual)",      desc = "Add surrounding",                mode = "x" },
+			{ prefix .. "S", "<Plug>(nvim-surround-visual-line)", desc = "Add surrounding to new line",    mode = "x" },
 		},
 		opts = {
 			keymaps = {
